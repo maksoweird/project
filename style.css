@@ -1,0 +1,400 @@
+                                                                        body,
+                                                                    html {
+                                                                        height: 100%;
+                                                                        margin: 0;
+                                                                        font-size: 16px;
+                                                                        font-family: "lato", sans-serif;
+                                                                        font-weight: 400;
+                                                                        line-height: 1.0em;
+                                                                        color: black;
+                                                                    }
+                                                                    
+                                                                    {
+                                                                        margin: 0;
+                                                                        padding: 0;
+                                                                        box-sizing: border-box;
+                                                                    }
+                                                                    
+                                                                    .logo {
+                                                                        color: white;
+                                                                        font-size: 33px;
+                                                                        font-weight: bold;
+                                                                        line-height: 50px;
+                                                                        padding-left: 5px;
+                                                                        text-align: left;
+                                                                    }
+                                                                    /* Dropbox */
+                                                                    
+                                                                    .menu-bar {
+                                                                        height: 60%;
+                                                                        background: grey;
+                                                                        text-align: center;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul {
+                                                                        display: inline-flex;
+                                                                        list-style: none;
+                                                                        color: white;
+                                                                    }
+                                                                    
+                                                                    .menu-bar li {
+                                                                        width: 150px;
+                                                                        margin: 10px;
+                                                                        padding: 10px;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul li a {
+                                                                        text-decoration: none;
+                                                                        color: black;
+                                                                    }
+                                                                    
+                                                                    .here,
+                                                                    .menu-bar ul li:hover {
+                                                                        background: grey;
+                                                                        border-radius: 3px;
+                                                                    }
+                                                                    
+                                                                    .menu-bar .fa {
+                                                                        margin-right: 8px;
+                                                                    }
+                                                                    
+                                                                    .sub-menu-1 {
+                                                                        display: none;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul li:hover .sub-menu-1 {
+                                                                        display: block;
+                                                                        position: absolute;
+                                                                        background: grey;
+                                                                        text-align: center;
+                                                                        margin-top: 15px;
+                                                                        margin: 10px;
+                                                                        margin-left: -15px;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul li:hover .sub-menu-1 ul {
+                                                                        display: block;
+                                                                        margin: 22px;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul li:hover .sub-menu-1 ul li {
+                                                                        width: 150px;
+                                                                        padding: 16px;
+                                                                        border-bottom: 1px dotted black;
+                                                                        background: white;
+                                                                        border-radius: 0;
+                                                                        text-align: left;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul li:hover .sub-menu-1 ul li :last-child {
+                                                                        border-bottom: none;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+                                                                        color: black;
+                                                                    }
+                                                                    
+                                                                    .sub-menu-2 {
+                                                                        display: none;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul li:hover .sub-menu-2 {
+                                                                        display: block;
+                                                                        position: absolute;
+                                                                        background: grey;
+                                                                        margin-top: 15px;
+                                                                        margin-left: -15px;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul li:hover .sub-menu-2 ul {
+                                                                        display: block;
+                                                                        margin: 22px;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul li:hover .sub-menu-2 ul li {
+                                                                        width: 150px;
+                                                                        padding: 15px;
+                                                                        border-bottom: 1px dotted black;
+                                                                        background: white;
+                                                                        border-radius: 0;
+                                                                        text-align: left;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul li:hover .sub-menu-2 ul li a:hover {
+                                                                        color: black;
+                                                                    }
+                                                                    
+                                                                    .sub-menu-3 {
+                                                                        display: none;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul li:hover .sub-menu-3 {
+                                                                        display: block;
+                                                                        position: absolute;
+                                                                        background: grey;
+                                                                        margin-top: 15px;
+                                                                        margin-left: -15px;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul li:hover .sub-menu-3 ul {
+                                                                        display: block;
+                                                                        margin: 22px;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul li:hover .sub-menu-3 ul li {
+                                                                        width: 150px;
+                                                                        padding: 15px;
+                                                                        border-bottom: 1px dotted black;
+                                                                        background: white;
+                                                                        border-radius: 0;
+                                                                        text-align: left;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul li:hover .sub-menu-3 ul li a:hover {
+                                                                        color: black;
+                                                                    }
+                                                                    
+                                                                    .sub-menu-4 {
+                                                                        display: none;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul li:hover .sub-menu-4 {
+                                                                        display: block;
+                                                                        position: absolute;
+                                                                        background: grey;
+                                                                        margin-top: 15px;
+                                                                        margin-left: -15px;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul li:hover .sub-menu-4 ul {
+                                                                        display: block;
+                                                                        margin: 22px;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul li:hover .sub-menu-4 ul li {
+                                                                        width: 150px;
+                                                                        padding: 15px;
+                                                                        border-bottom: 1px dotted black;
+                                                                        background: white;
+                                                                        border-radius: 0;
+                                                                        text-align: left;
+                                                                    }
+                                                                    
+                                                                    .menu-bar ul li:hover .sub-menu-4 ul li a:hover {
+                                                                        color: black;
+                                                                    }
+                                                                    
+                                                                    .pimg1,
+                                                                    .pimg2,
+                                                                    .pimg3 .mental1 .mental2 .mental3 .person1 .person2 .person3 .family1 .family2 {
+                                                                        position: relative;
+                                                                        opacity: 0.70;
+                                                                        background-position: center;
+                                                                        background-size: cover;
+                                                                        background-repeat: no-repeat;
+                                                                    }
+                                                                    /*
+                                   fixed = parallax
+                                   scroll = normal
+                                      */
+                                                                    
+                                                                    {
+                                                                        background-attachment: fixed;
+                                                                    }
+                                                                    
+                                                                    .pimg1 {
+                                                                        background-image: url("mental1.jpg");
+                                                                        min-height: 100%;
+                                                                    }
+                                                                    
+                                                                    .pimg2 {
+                                                                        background-image: url("2.jpg");
+                                                                        min-height: 400px;
+                                                                    }
+                                                                    
+                                                                    .pimg3 {
+                                                                        background-image: url("3.jpg");
+                                                                        min-height: 400px;
+                                                                    }
+                                                                    
+                                                                    .mental1 {
+                                                                        background-image: url("addiction2.jpg");
+                                                                        min-height: 100%;
+                                                                    }
+                                                                    
+                                                                    .mental2 {
+                                                                        background-image: url("anxiety.jpg");
+                                                                        min-height: 400px;
+                                                                    }
+                                                                    
+                                                                    .mental3 {
+                                                                        background-image: url("autism.jpg");
+                                                                        min-height: 400px;
+                                                                    }
+                                                                    
+                                                                    .person1 {
+                                                                        background-image: url("agression.jpg");
+                                                                        min-height: 100%;
+                                                                    }
+                                                                    
+                                                                    .person2 {
+                                                                        background-image: url("personality.jpg");
+                                                                        min-height: 400px;
+                                                                    }
+                                                                    
+                                                                    .person3 {
+                                                                        background-image: url("shyness.jpg");
+                                                                        min-height: 400px;
+                                                                    }
+                                                                    
+                                                                    .family1 {
+                                                                        background-image: url("parenting.jpg");
+                                                                        min-height: 100%;
+                                                                    }
+                                                                    
+                                                                    .family2 {
+                                                                        background-image: url("child.jpg");
+                                                                        min-height: 400px;
+                                                                    }
+                                                                    
+                                                                    .impatient1 {
+                                                                        background-image: url("im1.jpg");
+                                                                        box-sizing: border-box;
+                                                                        margin: 0;
+                                                                        padding: 20;
+                                                                        min-height: 100%;
+                                                                    }
+                                                                    
+                                                                    .addiction {
+                                                                        background-image: url("addiction2.jpg");
+                                                                        box-sizing: border-box;
+                                                                        margin: 0;
+                                                                        padding: 20px;
+                                                                        min-height: 100%;
+                                                                    }
+                                                                    
+                                                                    .blog {
+                                                                        background-image: url("blog.jpg");
+                                                                        box-sizing: border-box;
+                                                                        margin: 0;
+                                                                        padding: 20px;
+                                                                        min-height: 100%;
+                                                                    }
+                                                                    
+                                                                    .news {
+                                                                        background-image: url("news.jpg");
+                                                                        box-sizing: border-box;
+                                                                        margin: 0;
+                                                                        padding: 20px;
+                                                                        min-height: 100%;
+                                                                    }
+                                                                    
+                                                                    .coping {
+                                                                        background-image: url("coping.jpg");
+                                                                        box-sizing: border-box;
+                                                                        margin: 0;
+                                                                        padding: 20px;
+                                                                        min-height: 100%;
+                                                                    }
+                                                                    
+                                                                    .section {
+                                                                        text-align: center;
+                                                                        padding: 50px 80px;
+                                                                    }
+                                                                    
+                                                                    .section-light {
+                                                                        background-color: antiquewhite;
+                                                                        color: black;
+                                                                    }
+                                                                    
+                                                                    .section-dark {
+                                                                        background-color: antiquewhite;
+                                                                        color: black;
+                                                                    }
+                                                                    
+                                                                    .ptext {
+                                                                        position: absolute;
+                                                                        top: 50%;
+                                                                        width: 100%;
+                                                                        text-align: bottom;
+                                                                        color: antiquewhite;
+                                                                        font-size: 27px;
+                                                                        letter-spacing: 8px;
+                                                                        text-transform: uppercase;
+                                                                    }
+                                                                    
+                                                                    .ptext .border {
+                                                                        background-color: aquamarine;
+                                                                        color: antiquewhite;
+                                                                        padding: 20px;
+                                                                    }
+                                                                    
+                                                                    .ptext .border .trans {
+                                                                        background-color: transparent;
+                                                                    }
+                                                                    
+                                                                    @media(max-width:568px) {
+                                                                        .pmg1,
+                                                                        .pimg2,
+                                                                        .pimg3,
+                                                                        .mental1,
+                                                                        .mental2,
+                                                                        .mental3,
+                                                                        .person1,
+                                                                        .person2,
+                                                                        .person3,
+                                                                        .family1,
+                                                                        .family2 {
+                                                                            background-attachment: scroll;
+                                                                        }
+                                                                        * {
+                                                                            box-sizing: border-box;
+                                                                        }
+                                                                        /* Style inputs */
+                                                                        input[type=text],
+                                                                        select,
+                                                                        textarea {
+                                                                            width: 100%;
+                                                                            padding: 12px;
+                                                                            border: 1px solid #ccc;
+                                                                            margin-top: 6px;
+                                                                            margin-bottom: 16px;
+                                                                            resize: vertical;
+                                                                        }
+                                                                        input[type=submit] {
+                                                                            background-color: #04AA6D;
+                                                                            color: white;
+                                                                            padding: 12px 20px;
+                                                                            border: none;
+                                                                            cursor: pointer;
+                                                                        }
+                                                                        input[type=submit]:hover {
+                                                                            background-color: #45a049;
+                                                                        }
+                                                                        /* Style the container/contact section */
+                                                                        .container {
+                                                                            border-radius: 5px;
+                                                                            background-color: #f2f2f2;
+                                                                            padding: 10px;
+                                                                        }
+                                                                        /* Create two columns that float next to eachother */
+                                                                        .column {
+                                                                            float: left;
+                                                                            width: 50%;
+                                                                            margin-top: 6px;
+                                                                            padding: 20px;
+                                                                        }
+                                                                        /* Clear floats after the columns */
+                                                                        .row:after {
+                                                                            content: "";
+                                                                            display: table;
+                                                                            clear: both;
+                                                                        }
+                                                                        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+                                                                        @media screen and (max-width: 600px) {
+                                                                            .column,
+                                                                            input[type=submit] {
+                                                                                width: 100%;
+                                                                                margin-top: 0;
+                                                                            }
+                                                                        }
